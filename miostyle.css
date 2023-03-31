@@ -1,0 +1,187 @@
+
+body{
+    background-color: #ececec;
+   
+}
+
+.colorece{
+    color: #ececec;
+}
+
+/* USIAMO UNA CLASSE SOLO PER DARE IL COLORE COSI POSSO AGGIUNGERE
+SOLO SPECIFICAMENTE IL COLORE AD UN ELEMENTO SENZA INTACCARE ALTRI ELEMENTI
+O ALTRE PROPRIETà */
+.darkredclass{
+    color: darkred;
+    
+}
+
+.bgcolor{
+    background-color: darkred;
+}
+
+.fontNova{
+
+    font-family:'Nova Square';
+}
+
+.fontRaj{
+font-family:'Rajdhani';
+}
+
+/*.bottonemio{
+    btn-color: darkred;
+    --bs-btn-bg: darkred;
+    --bs-btn-border-color: darkred;
+    --bs-btn-hover-color: red;
+    --bs-btn-hover-bg:red;
+    --bs-btn-hover-border-color:;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: red;
+    --bs-btn-active-bg: #0a58ca;
+    --bs-btn-active-border-color: #0a53be;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #0d6efd;
+    --bs-btn-disabled-border-color: #0d6efd;
+}*/
+
+
+
+
+
+
+.montagnasfondo{
+background-image: url(./switzerland-862870_1920.jpg);
+
+}
+
+.img1{
+    width: 110px;
+    
+}
+
+i {
+    color:darkred;
+
+}
+
+.h2timeline{
+    color: darkred;
+    font-family: 'Nova Square';
+    
+}
+
+.h6icona{
+   border-bottom: solid 3px darkred;
+   position: relative;
+   
+}
+
+
+
+
+
+/* bottone il position relative FUNZIONA SOLO
+SE DO POSITION ABSOLUTE AL PADRE, DEVO INFATTI INDICARE
+ALL'ELEMENTO FIGLIO IN BASE A CHI SI STA MUOVENDO, IN QUESTO MODO
+COL PARENTI DIREAZIONALE RELATIVE L'ELEMENTO SI SPOSTERà
+TOP,LEFT,BOTTOM,RIGHT SOLO IN BASE AL PRIMO PARENT DIREAZIONEL DI 
+RIFERIMENTO QUINDI IN BASE AL PARENT DATO AL PADRE O COMUNQUE
+ALL'ELEMENTO PRIMA DI ESSO, SENNò SI SPOSTA IN BASE
+ALL'INTERO BODY E DIVENTA INGESTIBILE  */
+
+.miobottone{
+    position: relative;
+    top:calc(190px);
+   
+
+}
+
+
+.linksinziali{
+ color: black;
+    
+}
+    
+
+.h3due{ 
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.sezione3{
+    background-color: #ececec;
+}
+
+
+
+
+
+
+
+
+
+/* SE AGGIUNGO ROBA SU RIGHE VUOTE LUI LE MERGIA AUTOMATICAMENTE
+SE MODIFICO CODICE SULLE STESSE RIGHE LUI RICHIEDERà CONFERMA */
+
+
+.iconasnow{
+    position: calc();
+    position: relative;
+    top: -40px;
+    left: 200px;
+}
+.bordo1{
+    font-size:large;
+    border-bottom: darkred solid 2px ;
+    
+}
+
+.miocolorebottone{
+    background-color: darkred;
+}
+
+/* INIZIO SESSIONE TIME LINE */
+
+.backgroundtimeline{
+    background-color: white;
+}
+
+
+
+.bordotimeline{
+    border-left: solid darkred 5px;
+  
+
+}
+
+.circletimeline::before{
+content: '';
+width: 15px;
+height: 15px;
+border: 2px darkred solid;
+border-radius: 50%;
+background-color:white;
+position: absolute;
+left: calc(14.9px);
+
+
+}
+.h6iconacircle::before{
+    content: "";
+ 
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid darkred;
+    background-color: white;
+position: absolute;
+top: calc(83%);
+left: calc(48%);
+}
+
+
+.bordosottoicone{
+    border-bottom: darkred 4px solid;
+border-radius: 2px;
+padding: 10px;}
