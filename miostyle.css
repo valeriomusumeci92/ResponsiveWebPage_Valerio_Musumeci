@@ -185,3 +185,11 @@ left: calc(48%);
     border-bottom: darkred 4px solid;
 border-radius: 2px;
 padding: 10px;}
+
+.mountains{
+    width: 100%; 
+  }  
+
+  .bgcolorfooter{
+    background-color: darkred;
+  }
